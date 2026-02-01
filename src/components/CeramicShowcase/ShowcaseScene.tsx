@@ -15,7 +15,7 @@ export function ShowcaseScene({ design }: ShowcaseSceneProps) {
         <OrbitControls makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 2} />
         <ambientLight intensity={0.5} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} castShadow intensity={1} />
-        <Environment preset="city" />
+        <Environment preset="apartment" />
         <Floor design={design} />
       </Canvas>
     </div>
